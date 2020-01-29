@@ -7,22 +7,6 @@ function App(props) {
   const key_lists = props.store.lists;
   const key_allCards = props.store.allCards;
 
-  /* Test parameters
-
-  console.log(key_allCards);
-  console.log(key_allCards['a'].id) //=> a
-  console.log(key_allCards['a'].title) //=> First card
-  console.log(key_allCards['a'].content) //=> lorem ipsum
-  
-  const newArray = key_lists[0].cardIds.map(element => 
-      ({id: element,
-        title: key_allCards[element].title,
-        content: key_allCards[element].title})
-    );
-  
-  console.log(newArray);
-  */
-
   return (
     <main className="App">
 
@@ -51,3 +35,5 @@ function App(props) {
 }
 
 export default App;
+
+
